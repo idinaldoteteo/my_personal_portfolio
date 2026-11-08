@@ -12,3 +12,8 @@
     text-decoration: underline;
     color: var(--preto);
 }
+
+.title {
+    font-family: var(--fonte-title);
+    font-size: var(--font-size-l);
+}
