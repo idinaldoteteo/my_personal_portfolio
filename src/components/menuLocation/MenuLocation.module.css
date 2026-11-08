@@ -1,0 +1,14 @@
+.link{
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.link:hover{
+    transform: scale(1.1);
+    color: var(--azul);
+}
+
+.located {
+    text-decoration: underline;
+    color: var(--preto);
+}
