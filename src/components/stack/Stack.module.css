@@ -1,0 +1,17 @@
+.tag {
+  padding: var(--padding-xs) var(--padding-s);
+  border-radius: 0.5rem;
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  text-align: center;
+  font-family: var(--fonte-paragraph);
+  color: var(--preto);
+}
+
+.csharp {
+  background-color: var(--azul);
+}
+
+.java {
+  background-color: var(--amarelo);
+}

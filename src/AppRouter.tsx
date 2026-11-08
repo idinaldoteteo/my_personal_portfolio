@@ -4,6 +4,7 @@ import Start from './pages/start'
 import AboutMe from './pages/aboutMe'
 import Error from './pages/error'
 import Menu from './components/menu'
+import Footer from './components/footer'
 
 function AppRouter() {
 
@@ -15,6 +16,7 @@ function AppRouter() {
         <Route path='/about' element={<AboutMe/>}/>
         <Route path="*" element={<Error/>} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
