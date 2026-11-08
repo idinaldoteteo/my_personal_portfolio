@@ -11,7 +11,12 @@ const Banner = () => {
       >
         <div>
           <h1 className={styles.title}>Hi</h1>
-          <p className={styles.paragraph}>Quisque tincidunt, quam quis interdum rutrum, velit diam gravida lectus, vitae lobortis eros enim in metus. Fusce vel nisi sit amet odio semper pulvinar. Aliquam non fringilla neque. Sed dapibus bibendum odio, viverra pretium nisi elementum a. Donec luctus, nibh in consequat iaculis, leo diam pulvinar ipsum, eget ornare ligula odio id tellus. Vestibulum eleifend ante et varius commodo. Duis a risus nec nibh consequat posuere non sed felis. Duis ultricies sollicitudin facilisis. Pellentesque auctor odio vel lorem consequat auctor. Aenean molestie risus ante, consequat porttitor magna vehicula in. In ante augue, eleifend eu justo sit amet, bibendum egestas tortor. Pellentesque dolor libero, aliquet sed lectus eget, pretium pharetra dolor. Aliquam vitae tempor est. Nullam ultrices blandit molestie. Donec non accumsan orci.</p>
+          <p className={styles.paragraph}>
+            Idinaldo Tetéo. 
+          </p>
+          <p className={styles.paragraph}>
+            Software Engineer. 
+          </p>
         </div>
         <div>
           <img className={styles.myPhoto} src={myPhoto} alt="Photo Idinaldo" />
