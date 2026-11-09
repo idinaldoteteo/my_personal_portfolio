@@ -8,7 +8,6 @@
   box-shadow: var(--box-shadow-card);
   display: flex;
   flex-direction: column;
-  cursor: pointer;
   position: relative;
   perspective: 1000px;
   transition: outline-color 200ms ease, filter 200ms ease;
@@ -47,9 +46,11 @@
 .paragraph {
   font-size: var(--font-size-m);
   font-family: var(--fonte-title);
+  color: var(--preto);
 }
 
 .information {
+   cursor: pointer;
   position: absolute;
   right: 0;
   bottom: 0;

@@ -1,8 +1,7 @@
 import List from '../list'
-import data from '../../../../db.json'
 import styles from './Section.module.css'
 
-const Section = () => {
+const Section = ({data} : any) => {
     return (
         <main>
             <section className={styles.container}>

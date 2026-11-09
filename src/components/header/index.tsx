@@ -1,4 +1,4 @@
-import styles from './Menu.module.css'
+import styles from './Header.module.css'
 import MenuLocation from "../menuLocation"
 
 const Menu = () => {

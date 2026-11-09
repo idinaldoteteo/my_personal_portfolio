@@ -10,5 +10,6 @@ export interface CardContainer {
     alt: string;
     title: string;
     stack: Stack;
+    brief: string;
     description: string;
 }
