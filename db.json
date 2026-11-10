@@ -2,7 +2,7 @@
     "itens": [
         {
             "id": 1,
-            "src": "src/assets/images_projects/Pong image.png",
+            "src": "src/assets/Pong image.png",
             "alt": "Pong — A Classic, Reimagined",
             "title": "🏓 Pong a Classic, Reimagined",
             "stack": "javascript",
@@ -12,7 +12,7 @@
         },
         {
             "id": 2,
-            "src": "src/assets/images_projects/Automated CI and CD.jpg",
+            "src": "src/assets/Automated CI and CD.jpg",
             "alt": "Automated CI/CD Jenkins",
             "title": "👋 Automated CI/CD Jenkins",
             "stack": "java",
@@ -22,7 +22,7 @@
         },
         {
             "id": 3,
-            "src": "src/assets/images_projects/Distributed microservices.jpg",
+            "src": "src/assets/Distributed microservices.jpg",
             "alt": "AluraFood Microservices (back-end)",
             "title": "🍽️ AluraFood Microservices (back-end)",
             "stack": "java",
@@ -32,7 +32,7 @@
         },
         {
             "id": 4,
-            "src": "src/assets/system/Opps_Error.jpg",
+            "src": "src/assets/Opps_Error.jpg",
             "alt": "In constrution",
             "title": "🚧 Under construction 🚧",
             "stack": "🚧",
