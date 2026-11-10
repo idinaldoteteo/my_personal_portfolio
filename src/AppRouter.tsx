@@ -15,8 +15,8 @@ function AppRouter() {
       <Routes>
         <Route path='/' element={<Start/>}/>
         <Route path='about' element={<AboutMe/>}/>
-        <Route path="*" element={<Error/>} />
         <Route path='posts/:id' element={<Post/>}/>
+        <Route path="*" element={<Error/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
