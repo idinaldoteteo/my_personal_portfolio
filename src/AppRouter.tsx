@@ -6,6 +6,7 @@ import Error from './pages/error'
 import Header from './components/header'
 import Footer from './components/footer'
 import Post from './components/post'
+import data from '../db.json'
 
 function AppRouter() {
 
@@ -13,8 +14,8 @@ function AppRouter() {
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path='/' element={<Start/>}/>
-        <Route path='about' element={<AboutMe/>}/>
+        <Route path='/' element={<Start data={data} />}/>
+        <Route path='about' element={<AboutMe data={data} />}/>
         <Route path='posts/:id' element={<Post/>}/>
         <Route path="*" element={<Error/>} />
       </Routes>

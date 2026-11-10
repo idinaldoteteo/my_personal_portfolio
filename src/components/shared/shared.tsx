@@ -1,7 +1,7 @@
 export type Stack = 'java' | 'csharp';
 
 export interface StackProps {
-	value : Stack;
+    value: Stack;
 }
 
 export interface CardContainer {
@@ -14,3 +14,19 @@ export interface CardContainer {
     brief: string;
     description: string;
 }
+
+export type JsonProps = {
+    data: {
+        personal: {
+            banner : {
+                title: string;
+                subTitle: string;
+            },
+            aboutMe: {
+                title: string;
+                content: string;
+            }
+        },
+        itens: [];
+    };
+};

@@ -1,12 +1,11 @@
 import Banner from "../../components/banner";
 import Section from "../../components/card/section";
-import data from '../../../db.json'
 
-const Start = () => {
+const Start = ({data} : any) => {
 
   return (
     <section>
-      <Banner/> 
+      <Banner data={data} /> 
       <Section data={data} />
     </section>
   )
