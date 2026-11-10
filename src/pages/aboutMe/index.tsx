@@ -1,5 +1,5 @@
 import Article from "../../components/article"
-import banner from '../../assets/Banner Linkedin.jpg'
+import banner from '../../assets/Banner_Linkedin.jpg'
 import ReactMarkdown from 'react-markdown';
 import '../../App.css'
 

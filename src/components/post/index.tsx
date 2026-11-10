@@ -3,7 +3,7 @@ import { useLocation } from 'react-router';
 import Stack from '../stack';
 import ReactMarkdown from 'react-markdown';
 import '../../App.css'
-import banner from '../../assets/Banner Linkedin.jpg'
+import banner from '../../assets/Banner_Linkedin.jpg'
 import Button from '../button';
 import { FaGithub } from 'react-icons/fa';
 

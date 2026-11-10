@@ -1,6 +1,6 @@
 import styles from './Banner.module.css';
-import bannerImage from '../../assets/Banner Linkedin.jpg';
-import myPhoto from '../../assets/foto perfil terno 2.jpg'
+import bannerImage from '../../assets/Banner_Linkedin.jpg';
+import myPhoto from '../../assets/foto_perfil_terno.jpg'
 
 const Banner = () => {
   return (
