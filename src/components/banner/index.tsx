@@ -10,10 +10,7 @@ const Banner = () => {
         style={{ backgroundImage: `url(${bannerImage})` }}
       >
         <div>
-          <h1 className={styles.title}>Idinaldo Teteo</h1>
-          <p className={styles.paragraph}>
-           I'm a Senior Full Stack Engineer ...
-          </p>
+          <h1 className={styles.title}>Idinaldo Tetéo</h1>
           <p className={styles.paragraph}>
             Specializing in C# and Java, with just over 6 years of experience building high-volume enterprise systems. 
           </p>

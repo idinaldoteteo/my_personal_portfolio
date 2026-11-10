@@ -1,9 +1,9 @@
 import styles from './Header.module.css'
 import MenuLocation from "../menuLocation"
 
-const Menu = () => {
+const Header = () => {
     return (
-        <section>
+        <section id="page-header">
             <div className={styles.navegation}>
                 <MenuLocation navigate="/" title="Home" />
                 <MenuLocation navigate="/about" title="About me" />
@@ -12,4 +12,4 @@ const Menu = () => {
     )
 }
 
-export default Menu
+export default Header

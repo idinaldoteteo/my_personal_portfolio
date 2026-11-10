@@ -3,7 +3,7 @@ import './App.css'
 import Start from './pages/start'
 import AboutMe from './pages/aboutMe'
 import Error from './pages/error'
-import Menu from './components/header'
+import Header from './components/header'
 import Footer from './components/footer'
 import Post from './components/post'
 
@@ -11,7 +11,7 @@ function AppRouter() {
 
   return (
     <BrowserRouter>
-      <Menu/>
+      <Header/>
       <Routes>
         <Route path='/' element={<Start/>}/>
         <Route path='about' element={<AboutMe/>}/>

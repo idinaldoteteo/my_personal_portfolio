@@ -1,0 +1,33 @@
+.button {
+    padding: var(--padding-s);
+    font-family: var(--fonte-title);
+    font-size: var(--font-size-m);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.button:hover {
+    background-color: var(--branco);
+    color: var(--azul-escuro);
+    border: 3px solid var(--azul-escuro);
+}
+
+.default {
+    color: var(--branco);
+    background-color: var(--cinza-escuro);
+}
+
+.icon {
+    background: none;
+    font-size: var(--font-size-l);
+    border: none;
+    padding: 0.5rem;
+    color: #333;
+}
+
+.backToTop {
+    margin-bottom: 10px;
+}
