@@ -4,7 +4,8 @@ import type { StackProps } from '../shared/shared';
 
 const tagClasses = {
 	'java' : styles.java,
-	'csharp' : styles.csharp
+	'csharp' : styles.csharp,
+  'javascript' : styles.javascript
 }
 
 const Stack = ({value} : StackProps) => {

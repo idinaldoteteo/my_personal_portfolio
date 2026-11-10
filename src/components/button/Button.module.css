@@ -7,6 +7,10 @@
     cursor: pointer;
     background-color: var(--azul-escuro);
     color: var(--branco);
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    height: 70px;
 }
 
 .button:hover {
@@ -20,12 +24,17 @@
     background-color: var(--cinza-escuro);
 }
 
-.icon {
+.icon {    
     background: none;
     font-size: var(--font-size-l);
     border: none;
     padding: 0.5rem;
-    color: #333;
+    color: var(--preto);
+}
+
+.icon a {
+    text-decoration: none;
+    color: var(--preto);
 }
 
 .backToTop {

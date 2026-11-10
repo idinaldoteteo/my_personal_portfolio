@@ -15,7 +15,10 @@ const Button = ({ children, variant = "default", ...rest }: ButtonProps) => {
 
     return (
         // install classnames library to use this function, using the command npm i classnames
-        <button className={classNames(style.button, classMap[variant])} {...rest}>{children}</button>
+        <div>
+            <button className={classNames(style.button, classMap[variant])} {...rest}>{children}</button>
+        </div>
+
     )
 }
 

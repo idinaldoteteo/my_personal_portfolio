@@ -2,57 +2,43 @@
     "itens": [
         {
             "id": 1,
-            "src": "src/assets/system/Opps_Error.jpg",
-            "alt": "Imagem do filme Caminho para o abismo",
-            "title": "id 1 Nullam euismod quam id augue bibendum maximus. Vivamus eget mollis",
-            "stack": "java",
-            "brief": "brief id 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nParagraph \n\nNew line",
-            "description": "> Fonte: <https://www.alura.com.br/artigos/python-origem-do-nome> \n\n Por que uma das linguagens de programação mais amada no mundo tem esse nome e qual a origem dele? Tem relação com algum tipo de cobra? Descubra isso e muito mais neste artigo! \n\n ### Um pouco de história \n\n [Guido Van Rossum](https://pt.wikipedia.org/wiki/Guido_van_Rossum) criou o [Python](https://www.alura.com.br/cursos-online-programacao/python) em 1989. Ele trabalhava no [Centrum Voor Wiskunde en Informatica](https://www.cwi.nl/) no início dos anos 1980, e seu trabalho era implementar a linguagem de programação conhecida como [ABC](https://pt.wikipedia.org/wiki/ABC_(linguagem_de_programa%C3%A7%C3%A3o)).  \n\n Durante o final dos anos 1980, enquanto ainda estava no CWI, ele começou a procurar por uma linguagem de script que tivesse sintaxe semelhante ao ABC, mas que tivesse acesso às chamadas de sistema do [Amoeba](https://pt.wikipedia.org/wiki/Amoeba_sistema_operacional). Após procurar e não encontrar nenhuma linguagem que atendesse às suas necessidades, Rossum decidiu projetar uma linguagem de script simples que pudesse superar as inadequações do ABC.  \n\n No final da década de 1980, Rossum começou a desenvolver o novo script, e em 1991, lançou a versão de abertura da linguagem de programação. Esta primeira versão tinha um sistema de módulo [Modula-3](https://pt.wikipedia.org/wiki/Modula-3), linguagem que foi posteriormente denominada “Python”. \n\n ### Certo, mas de onde vem esse nome? \n\n Muitas pessoas costumam pensar que o nome Python tem origem em um tipo de cobra, já que o logotipo do Python mostra a imagem de uma cobra azul e amarela. \n\n ![gif do logo da linguagem de programação python](/assets/posts/1/gif-1.gif)  \n\n No entanto, a verdadeira história por trás da nomenclatura é um pouco diferente.  \n\n Na década de 1970, a BBC tinha um programa de TV popular do qual van Rossum era um grande fã chamado [Fly Circus de Monty Python](https://pt.wikipedia.org/wiki/Monty_Python%27s_Flying_Circus), ou apenas Monty Python para os íntimos.  \n\n Assim, quando desenvolveu a linguagem, ele pensou que precisava de um nome que fosse curto, único e um pouco misterioso, e por algum motivo que só ele conhecia, decidiu chamar o projeto de ‘Python’. \n\n ![homem saindo de uma loja](/assets/posts/1/gif-2.gif) \n\n E se você fosse criar sua própria linguagem de programação, qual nome daria? Faria uma homenagem a sua série, jogo ou filme favorito? \n\n No nosso [curso de python](https://www.alura.com.br/cursos-online-programacao/python), que é uma formação completa, entramos também em outras curiosidades da linguagem e sua história, pois a comunidade é muito forte e toma decisões importantes. \n\n ### Conclusão \n\n Atualmente, [o Python é uma tendência mundial no mundo das pessoas que desenvolvem](https://blog.revelo.com.br/desenvolvedores-python-estao-em-alta-no-mercado/), já que pode ser aplicado em diferentes cenários, como: Data Science, aplicações web, desenvolvimento Back-End, criação de jogos e scripts. \n\n Quer aprender mais sobre Python? Veja: \n\n - [Python do zero - Formação na linguagem mais querida do momento](https://www.alura.com.br/formacao-Python-linguagem) \n\n - [Python para Web - Formação Django](https://www.alura.com.br/formacao-django) \n\n - [API com Python - Curso Django Rest Framework](https://www.alura.com.br/curso-online-api-django-3-rest-framework) \n\n - [TDD com Python - Desenvolvimento guiado por testes](https://cursos.alura.com.br/course/tdd-django-3-testes) \n\n - [Pacman com Python - Criando um jogo com Pygame](https://www.alura.com.br/curso-online-python-pygame-pacman-colisao-pontuacao) \n\n "
+            "src": "src/assets/images_projects/Pong image.png",
+            "alt": "Pong — A Classic, Reimagined",
+            "title": "🏓 Pong a Classic, Reimagined",
+            "stack": "javascript",
+            "gitUrl": "https://github.com/idinaldoteteo/pong_game.git",
+            "brief": "A browser-based take on the arcade classic. Rally against the computer, chase the score, and see how long you can keep the ball in play.",
+            "description": "\n\nA browser-based take on the arcade classic. Rally against the computer, chase the score, and see how long you can keep the ball in play.\n\n## ✨ Features\n\n- Player-versus-computer gameplay\n- Live score tracking\n- Paddle and scoring sound effects\n- Spoken score announcements\n- Built with HTML, CSS, JavaScript, and [p5.js](https://p5js.org/)\n\n## 🎮 How to Play\n\nMove your mouse vertically to control **Player 1’s paddle**. The computer controls the opposite paddle. Keep the ball in play and score by getting it past your opponent.\n\n## 🚀 Run Locally\n\n1. Clone or download this repository.\n2. Open `index.html` in a browser, or serve the project with a local development server.\n3. Move your mouse over the game to play.\n\n> The game loads p5.js and p5.sound from CDNs, so an internet connection is needed.\n\n## 🗂️ Project Structure\n\n- `index.html` — Page markup and game score display\n- `index.css` — Game layout and styles\n- `sketch.js` — Game logic, paddles, ball, scoring, and audio\n- `images/` — Game artwork\n- `sounds/` — Sound effects\n\n## 🛠️ Built With\n\n- HTML\n- CSS\n- JavaScript\n- p5.js\n\n---\n\nHave fun rallying! 🏓"
         },
         {
             "id": 2,
             "src": "src/assets/system/Opps_Error.jpg",
-            "alt": "Imagem do filme Caminho para o abismo",
-            "title": "id 2 Nullam euismod quam id augue bibendum maximus. Vivamus eget mollis",
-            "stack": "csharp",
-            "brief": "brief id 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nParagraph \n\nNew line",
-            "description": "id 2 Nullam euismod quam id augue bibendum maximus. Vivamus eget mollis elit. Nullam vel dui at turpis sagittis vulputate eget id neque. Duis condimentum tempor libero, ac pretium velit sodales eget. Suspendisse in mi malesuada, pharetra purus eget, egestas nunc. Integer euismod arcu in placerat finibus. Nulla eget elit mollis sem pulvinar sodales. Cras in odio elit. Nunc id ultricies sapien"
+            "alt": "Automated CI/CD Jenkins",
+            "title": "👋 Automated CI/CD Jenkins",
+            "stack": "java",
+            "gitUrl": "https://github.com/idinaldoteteo/jenkins_greeting_app.git",
+            "brief": "A small REST API that says 'hello' and a simple example of building, testing, packaging",
+            "description": "Simple example of building, testing, packaging, and publishing a Java application with Jenkins and Docker.\n\n## ✨ What It Does\n\nThe Spring Boot app exposes two greeting endpoints:\n \n - `GET` - `/greeting` (`Hello World. This application is UP with Jenkins.)`\n - `GET` - `/greeting/jenkins` (`Hello World. I am automated with Jenkins.)` \n\n## 🛠️ Built With\n\n- Java 17\n- Spring Boot 3.4.3\n- Maven\n- Docker\n- Jenkins\n\n## 🚀 Run Locally\n\n **Prerequisites**\n\n- Java 17\n- Maven, or use the included Maven Wrapper\n\n **Build and test**\n\nOn macOS/Linux:\n\n```bash\n./mvnw clean package\n```\n\nOn Windows:\n\n```powershell\n.\\mvnw.cmd clean package\n```\n\nRun the application:\n\n```bash\njava -jar target/greeting-0.0.1-SNAPSHOT.jar\n```\n\nThe API will be available at `http://localhost:8080`.\n\nTry the endpoints:\n\n```bash\ncurl http://localhost:8080/greeting\ncurl http://localhost:8080/greeting/jenkins\n```\n\n## 🐳 Run with Docker\n\nBuild the application JAR first, then build and run the image from the repository root:\n\n```bash\ndocker build -t greeting-app .\ndocker run --rm -p 8080:8080 greeting-app\n```\n\nThen visit `http://localhost:8080/greeting` or `http://localhost:8080/greeting/jenkins`.\n\n## ⚙️ Jenkins Pipeline\n\nThe `Jenkinsfile` defines a pipeline that:\n\n1. Checks out the `main` branch.\n2. Builds the project with Maven.\n3. Runs the Maven tests.\n4. Builds and tags a Docker image.\n5. Pushes the image tags to Docker Hub.\n\nThe pipeline expects a Jenkins Maven tool named `mvn`, Docker available on the build agent, and Docker Hub credentials configured in Jenkins with the ID `dockerHub`. The pipeline uses Windows `bat` steps, so its agent must support those commands.\n\n> **Before running the pipeline:** replace the `TAG_VERSION` placeholder in the Docker build and push steps with the desired image version. The pipeline also publishes the `latest` tag.\n\n## 🗂️ Project Structure\n\n- `src/main/java/com/teteo/greeting/GreetingApplication.java` — Spring Boot application entry point\n- `src/main/java/com/teteo/greeting/controller/GreetingController.java` — Greeting REST endpoints\n- `src/main/resources/application.properties` — Application configuration\n- `src/test/java/com/teteo/greeting/GreetingApplicationTests.java` — Application context test\n- `Dockerfile` — Container image definition\n- `Jenkinsfile` — Jenkins build and image-publishing pipeline\n- `pom.xml` — Maven project and dependency configuration\n\n---\n\nA small app, from source code to a Docker image—with Jenkins automating the journey. 🚀"
         },
         {
             "id": 3,
             "src": "src/assets/system/Opps_Error.jpg",
-            "alt": "Imagem do filme Caminho para o abismo",
-            "title": "id 3Caminho para o abismo",
-            "stack": "csharp",
-            "brief": "brief id 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nParagraph \n\nNew line",
-            "description": "id 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nVestibulum nec nibh et justo accumsan tincidunt. Cras euismod vel purus fringilla consectetur. Curabitur vehicula tellus eget metus scelerisque, mollis aliquam quam posuere. Vivamus in tortor nulla. Suspendisse feugiat pharetra tortor, quis sodales orci consequat et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus nec dapibus tortor. In diam elit, fringilla et neque non, ornare posuere mauris. Nullam posuere commodo est, quis tincidunt dolor finibus at. Vivamus pellentesque placerat justo, in semper magna auctor ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus maximus justo sit amet lorem tincidunt scelerisque. Donec ultrices aliquam tristique"
+            "alt": "In constrution",
+            "title": "🚧 Under construction 🚧",
+            "stack": "🚧",
+            "gitUrl": "🚧 Under construction 🚧",
+            "brief": "🚧 Under construction 🚧",
+            "description": "🚧 Under construction 🚧"
         },
         {
             "id": 4,
             "src": "src/assets/system/Opps_Error.jpg",
-            "alt": "Imagem do filme Caminho para o abismo",
-            "title": "id 4Caminho para o abismo",
-            "stack": "csharp",
-            "brief": "brief id 4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nParagraph \n\nNew line",
-            "description": "id 4 Nullam euismod quam id augue bibendum maximus. \nVivamus eget mollis elit. Nullam vel dui at turpis sagittis vulputate eget id neque. \nDuis condimentum tempor libero, ac pretium velit sodales eget. Suspendisse in mi malesuada, pharetra purus eget, egestas nunc. Integer euismod arcu in placerat finibus. Nulla eget elit mollis sem pulvinar sodales. Cras in odio elit. Nunc id ultricies sapien"
-        },
-        {
-            "id": 5,
-            "src": "src/assets/system/Opps_Error.jpg",
-            "alt": "Imagem do filme Caminho para o abismo",
-            "title": "id 5 aminho para o abismo",
-            "stack": "csharp",
-            "brief": "brief id 5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nParagraph \n\nNew line",
-            "description": "id 5 ullam euismod quam id augue bibendum maximus. Vivamus eget mollis elit. Nullam vel du"
-        },
-        {
-            "id": 6,
-            "src": "src/assets/system/Opps_Error.jpg",
-            "alt": "Imagem do filme Caminho para o abismo",
-            "title": "id 6 Caminho para o abismo",
-            "stack": "csharp",
-            "brief": "brief id 6 Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nParagraph \n\nNew line",
-            "description": "id 6 Nullam euismod quam id augue bibendum maximus. Vivamus eget mollis elit. Nullam vel dui at turpis sagittis vulputate eget id neque. Duis condimentum tempor libero, ac pretium velit sodales eget. Suspendisse in mi malesuada, pharetra purus eget, egestas nunc. Integer euismod arcu in placerat finibus. Nulla eget elit mollis sem pulvinar sodales. Cras in odio elit. Nunc id ultricies sapien"
+            "alt": "In constrution",
+            "title": "🚧 Under construction 🚧",
+            "stack": "🚧",
+            "gitUrl": "🚧 Under construction 🚧",
+            "brief": "🚧 Under construction 🚧",
+            "description": "🚧 Under construction 🚧"
         }
     ]
 }
