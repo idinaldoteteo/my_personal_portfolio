@@ -12,7 +12,7 @@
         },
         {
             "id": 2,
-            "src": "src/assets/system/Opps_Error.jpg",
+            "src": "src/assets/images_projects/Automated CI and CD.jpg",
             "alt": "Automated CI/CD Jenkins",
             "title": "👋 Automated CI/CD Jenkins",
             "stack": "java",
@@ -22,13 +22,13 @@
         },
         {
             "id": 3,
-            "src": "src/assets/system/Opps_Error.jpg",
-            "alt": "In constrution",
-            "title": "🚧 Under construction 🚧",
-            "stack": "🚧",
-            "gitUrl": "🚧 Under construction 🚧",
-            "brief": "🚧 Under construction 🚧",
-            "description": "🚧 Under construction 🚧"
+            "src": "src/assets/images_projects/Distributed microservices.jpg",
+            "alt": "AluraFood Microservices (back-end)",
+            "title": "🍽️ AluraFood Microservices (back-end)",
+            "stack": "java",
+            "gitUrl": "https://github.com/idinaldoteteo/alura_microsservices_alurafood.git",
+            "brief": "Distributed microservices and AWS CDK infrastructure. Explore a food-ordering backend built as a set of Java microservices and Java AWS CDK infrastructure",
+            "description": "The project demonstrates service discovery, API routing, synchronous service calls, resilient communication, and asynchronous payment events with AWS infrastructure defined using CDK.\n\n## 🧩 Architecture\n\n- **Order** — handles order requests and uses MySQL.\n- **Payments** — handles payment requests, uses PostgreSQL, and publishes payment-confirmation events.\n- **Rating** — receives payment-confirmation events and handles ratings.\n- **Eureka Server** — service registration and discovery.\n- **Gateway** — entry point that routes requests to registered services.\n- **RabbitMQ** — distributes payment-confirmation events.\n\nThe payment service publishes to the `fanout.payment.confirmation` exchange. The Order and Rating services each receive the event through their own queues.\n\n## ✨ What You’ll Find\n\n- Java 17 and Spring Boot microservices\n- Spring Cloud Eureka service discovery and Gateway routing\n- Synchronous communication with OpenFeign\n- Resilience patterns with Resilience4j: circuit breaker, retry, and fallback\n- Asynchronous messaging with RabbitMQ\n- MySQL for orders and PostgreSQL for payments\n- Flyway database migrations, Lombok, and ModelMapper\n- Swagger/OpenAPI support\n- AWS CDK definitions for VPC, ECS, Fargate, and RDS resources\n\n## 🌐 Local Endpoints\n\nStart the services and their dependencies before using these routes:\n\n \n- Eureka dashboard | `http://localhost:8762/` \n- API Gateway | `http://localhost:8090` \n- Orders | `http://localhost:8090/order-ms/order` \n-  Payments | `http://localhost:8090/payments-ms/payment` \n- Ratings | `http://localhost:8090/rating-ms/rating` \n- RabbitMQ management | `http://localhost:15672/` \n\n## 🚀 Run Locally\n\n### Prerequisites\n\n- Java 17\n- Docker with Docker Compose\n- MySQL and PostgreSQL instances configured for the services\n\nDatabase and service connection settings are in each service’s `src/main/resources` configuration files. Review those settings and provide credentials appropriate for your environment.\n\n### Start RabbitMQ\n\nFrom the repository root:\n\n```bash\ndocker compose -f payments/docker-compose.yml up -d\n```\n\n### Build and test a service\n\nEach Java service is a separate Maven project with its own wrapper. Run the following from the service’s directory, for example `Order`:\n\nmacOS/Linux:\n\n```bash\n./mvnw clean verify\n```\n\nWindows:\n\n```powershell\n.\\mvnw.cmd clean verify\n```\n\nRepeat for `Server`, `gateway`, `payments`, and `rating` as needed.\n\n### Start the application\n\nRun each service in a separate terminal. Start Eureka first, then the Gateway and the application services. Make sure RabbitMQ and the configured databases are available. Once the services have registered with Eureka, send requests through the Gateway using the routes above.\n\n## ☁️ AWS Infrastructure\n\nThe `alura-aws-infra` directory contains a Java AWS CDK project with infrastructure definitions for a VPC, ECS cluster, RDS, and a load-balanced Fargate service. Review the CDK code and your AWS account and region configuration before synthesizing or deploying. AWS resources may incur charges.\n\n## 🗂️ Repository Structure\n\n- `Order/` — Order microservice\n- `payments/` — Payment microservice and RabbitMQ Compose configuration\n- `rating/` — Rating microservice\n- `Server/` — Eureka discovery server\n- `gateway/` — Spring Cloud Gateway\n- `alura-aws-infra/` — AWS CDK infrastructure project\n\n---\n\nA practical playground for exploring how distributed services communicate, recover, and scale. 🚀"
         },
         {
             "id": 4,
