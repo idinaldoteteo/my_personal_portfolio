@@ -2,9 +2,9 @@ import Article from "../../components/article"
 import banner from '/Banner_Linkedin.jpg'
 import ReactMarkdown from 'react-markdown';
 import '../../App.css'
-import type { JsonProps } from "../../components/shared/shared";
 
-const AboutMe = ({data} : JsonProps) => {
+const AboutMe = ({data} : any) => {
+
   return (
     <Article title={data.personal.aboutMe.title} urlCover={banner}>
       <span className='post-markdown-container'>
