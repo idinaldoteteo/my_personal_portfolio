@@ -11,7 +11,7 @@ const Banner = ({data}: JsonProps) => {
         className={styles.bannerContent}
         style={{ backgroundImage: `url(${bannerImage})` }}
       >
-        <div>
+        <div className={styles.bannerContentText}>
           <h1 className={styles.title}>{data.personal.banner.title}</h1>
           <p className={styles.paragraph}>
             {data.personal.banner.subTitle}

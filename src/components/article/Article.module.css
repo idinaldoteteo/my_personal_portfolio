@@ -1,12 +1,12 @@
 .container {
     color: var(--cor-fonte-post);
     position: relative;
-    height: 110%;
+    width: 100%;
 }
 
 .cover,
 .title {
-    height: 204px;
+    height: 120px;
 }
 
 .cover {
@@ -21,44 +21,41 @@
 
 .title {
     font-family: var(--fonte-title);
-    padding: 0 7.5rem;
-    font-size: 4rem;
+    padding: 0 clamp(1rem, 7.5vw, 7.5rem);
+    font-size: clamp(2rem, 6vw, 3rem);
     display: flex;
     align-items: center;
 }
 
 .content {
-    padding: 2% 50% 10% 5%;
+    width: min(100%, var(--max-width-block));
+    margin: 0 auto;
+    padding: 2rem clamp(1rem, 5vw, 4rem) 4rem;
 }
 
 .content p {
     font-family: var(--fonte-paragraph);
-    font-size: var(--fonte-size-m);
-    text-align: justify;
     font-size: 1.5rem;
-    line-height: 2.25rem;
+    line-height: 1.75;
     margin-bottom: 1.5rem;
 }
 
 @media (max-width: 744px) {
-    .postConteudoContainer {
-        padding: 2rem 1.5rem 1.5rem;
-    }
-}
-
-@media (max-width: 744px) {
-
-    .fotoCapa,
-    .titulo {
-        height: 104px;
+    .cover,
+    .title {
+        height: 140px;
     }
 
-    .titulo {
+    .title {
         padding: 0 1rem;
-        font-size: 2rem;
+        font-size: clamp(1.75rem, 8vw, 2.5rem);
     }
 
-    .postConteudoContainer {
-        padding: 2rem 1rem 1.5rem;
+    .content {
+        padding: 1.5rem 1rem 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
     }
 }

@@ -62,12 +62,12 @@ body {
     box-sizing: border-box;
 
     font-family: var(--fonte-paragraph);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-s);
     font-weight: 400;
 }
 
 main {
-    min-height: 1000px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,18 +96,16 @@ main {
 
 .post-markdown-container h3 {
     margin-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
 }
 
 .post-markdown-container h4 {
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: clamp(1.25rem, 3vw, 2rem);
 }
 
 .post-markdown-container p {
-    text-align: justify;
-    margin-left: 4%;
-    line-height: 2.25rem;
+    line-height: 1.75;
 }
 
 .post-markdown-container a {
@@ -117,12 +115,15 @@ main {
 
 .post-markdown-container img {
     display: block;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
 .post-markdown-container ul {
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
 }
 
 .post-markdown-container ul>li {
@@ -131,22 +132,16 @@ main {
 
 .post-markdown-container pre,
 .post-markdown-container blockquote {
-    margin-left: 4%;
+    margin: 1rem 0;
 }
 
 .post-markdown-container pre {
     overflow-x: auto;
+    max-width: 100%;
 }
 
 @media (max-width: 744px) {
-    .post-markdown-container h3 {
-        font-size: 1.5rem;
-        line-height: 2rem;
-        margin-bottom: 1.5rem;
-    }
-
     .post-markdown-container p {
-        font-size: 1rem;
-        line-height: 1.75rem;
+        overflow-wrap: anywhere;
     }
 }

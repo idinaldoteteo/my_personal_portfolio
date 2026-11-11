@@ -1,6 +1,7 @@
 .link{
     text-decoration: none;
     color: var(--preto);
+    padding: 0.5rem;
 }
 
 .link:hover{
@@ -11,9 +12,16 @@
 .located {
     text-decoration: underline;
     color: var(--preto);
+    padding: 0.5rem;
 }
 
 .title {
     font-family: var(--fonte-title);
-    font-size: var(--font-size-l);
+    font-size: clamp(1rem, 4vw, var(--font-size-l));
+}
+
+.link:focus-visible,
+.located:focus-visible {
+    outline: 3px solid var(--azul);
+    outline-offset: 3px;
 }

@@ -1,7 +1,7 @@
 .button {
     padding: var(--padding-s);
     font-family: var(--fonte-title);
-    font-size: var(--font-size-m);
+    font-size: clamp(1rem, 4vw, var(--font-size-m));
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -10,7 +10,7 @@
     align-items: center;
     display: flex;
     gap: 15px;
-    height: 70px;
+    min-height: 60px;
 }
 
 .button:hover {

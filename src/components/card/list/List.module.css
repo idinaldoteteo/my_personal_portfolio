@@ -7,3 +7,10 @@
   justify-content: space-around;
   padding-left: 0;
 }
+
+@media (max-width: 744px) {
+  .list {
+    gap: var(--gap-m);
+    padding: 0 1rem;
+  }
+}
